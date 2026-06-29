@@ -1,11 +1,5 @@
-# Remote Sensing Lab — Land Cover Classification with ENVI
+# Land Cover Classification with ENVI
 
-**Remote Sensing course — Lab Report**
-Fereshteh Sabeghi Eskandar — 333840
-Università degli Studi di Torino
-2024
-
----
 
 ## Indice
 
@@ -260,30 +254,6 @@ La mappa finale distingue chiaramente:
 
 ---
 
-## Materiali del repository
-
-```
-.
-├── README.md
-├── docs/
-│   └── remote_sensing.pdf                       # Report completo originale
-└── images/
-    ├── 01_raster_color_slice_classes.jpg         # Classificazione SAM a 5 classi
-    ├── 02_final_classification_result.jpg        # Mappa di classificazione finale
-    ├── 03_band_math_histogram_editor.jpg         # Editor istogramma multiclasse
-    ├── 04_copernicus_data_search.jpg              # Ricerca dati Copernicus Browser
-    ├── 05_envi_open_data.jpg                      # Apertura dati Sentinel-2 in ENVI
-    ├── 06_false_color_composite.jpg               # Confronto colori naturali/falsi colori
-    ├── 07_roi_context_menu.jpg                    # Menu creazione Raster Color Slice
-    ├── 08_roi_stats_water_body.jpg                # Firma spettrale ROI "water body"
-    ├── 09_roi_stats_green_area.jpg                # Firma spettrale ROI "green area"
-    ├── 10_raster_color_slice_editor_green.jpg     # Raster color slice aree verdi
-    ├── 11_scatter_plot_mountains.jpg              # Scatter plot classe "mountains"
-    ├── 12_band_math_classification.jpg            # Classificazione binaria da band math
-    ├── 13_cursor_value_veg_index.jpg               # Lettura puntuale indice di vegetazione
-    ├── 14_ndvi_raster_color_slice.jpg              # Calcolo e visualizzazione NDVI
-    └── 15_roi_separability_report.jpg              # Report di separabilità delle ROI
-```
 
 **Software utilizzato:** ENVI (image processing), Copernicus Browser (acquisizione dati Sentinel-2)
 **Dataset:** Sentinel-2 MSI L1C, risoluzione 10 m, area di studio ~183 km² (regione di Tabriz, Iran), aprile 2024
